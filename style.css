@@ -91,8 +91,7 @@ margin-top: 30px; */
 }
 
 /* Party section starts here  */
- .party-image {
-  
+.party-image {
   background-image: linear-gradient(to left, black 0%, rgba(0, 0, 0, 0) 100%);
   border-radius: 16px;
   position: relative;
@@ -100,21 +99,21 @@ margin-top: 30px; */
 .party-image img {
   opacity: 0.5;
 }
-        .flex-box{
-            display: flex;
-            width: 1300px;
-            margin: 0 auto;
-            gap: 400px;
-            margin-left: 50px;
-            position: absolute;
-            top: 150px;
+.flex-box {
+  display: flex;
+  width: 1300px;
+  margin: 0 auto;
+  gap: 400px;
+  margin-left: 50px;
+  position: absolute;
+  top: 150px;
   left: 400px;
   transform: translate(-30%, -12%);
-        }
-        .party-image{
-            position: relative;
-        }
-        .party-text h1 {
+}
+.party-image {
+  position: relative;
+}
+.party-text h1 {
   font-size: 64px;
   color: #ffffff;
   margin-bottom: 24px;
@@ -246,11 +245,10 @@ margin-top: 30px; */
 }
 .rectangle-2 {
   margin-top: 330px;
-   width: 1330px;
+  width: 1330px;
 }
 .discount-footer-image {
   position: relative;
- 
 }
 .discount-gift-box {
   position: absolute;
@@ -259,35 +257,37 @@ margin-top: 30px; */
   width: 670px;
   height: 570px;
 }
-.holidays-discount-offer{
-    margin-bottom: 120px;
+.holidays-discount-offer {
+  margin-bottom: 120px;
 }
 
 /* -------portfolio style--- */
-.portfolio-text h2{
-font-size: 24;
-font-weight: 500;
-color:#ff0000;
-margin-bottom: 16px;
+.portfolio-text h2 {
+  font-size: 24;
+  font-weight: 500;
+  color: #ff0000;
+  margin-bottom: 16px;
 }
-.portfolio-text h1,.subscribe h1{
+.portfolio-text h1,
+.subscribe h1 {
   font-size: 48;
-  color:#070211
+  color: #070211;
 }
-.portfolio-text p,.subscribe p{
-   font-size: 20px;
+.portfolio-text p,
+.subscribe p {
+  font-size: 20px;
   color: #6d6d6d;
   margin-top: 22px;
   margin-bottom: 48px;
 }
 
-.portfolio-image{
- margin-bottom: 120px;
+.portfolio-image {
+  margin-bottom: 120px;
 }
 
 /* ------Subscribe section--------- */
 
-.input-field{
+.input-field {
   width: 430px;
   padding: 12px 22px;
   font-size: 20px;
@@ -297,25 +297,25 @@ margin-bottom: 16px;
   margin-bottom: 120px;
   border: none;
 }
-.input-field-btn{
+.input-field-btn {
   padding: 12px 22px;
   border-top-right-radius: 120px;
   border-bottom-right-radius: 120px;
 
-  font-size:20px ;
+  font-size: 20px;
   color: #ffffff;
   background-color: #ff0000;
   position: absolute;
   left: 800px;
   border: none;
 }
-.input-box{
+.input-box {
   position: relative;
 }
-.subscribe img{
+.subscribe img {
   margin-bottom: 40px;
 }
-.subscribe{
+.subscribe {
   background-image: linear-gradient(
     to bottom,
     rgb(242, 205, 205) 0%,
@@ -325,16 +325,17 @@ margin-bottom: 16px;
 }
 
 /* ---------Footer styles---- */
-.footer-container{
+.footer-container {
   background-color: #070211;
   opacity: 0.9;
 }
-.address h4, .contact h4{
+.address h4,
+.contact h4 {
   color: #ffffff;
   font-size: 24px;
   font-weight: 500;
 }
-.footer-text{
+.footer-text {
   width: 1320px;
   margin: 0 auto;
   display: flex;
@@ -343,32 +344,28 @@ margin-bottom: 16px;
   margin-bottom: 40px;
 }
 
-.icon{
+.icon {
   text-align: center;
 }
-.icon img{
+.icon img {
   margin-right: 20px;
-margin-top: 30px;
-margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
-.copy-text p, .copy-text button{
+.copy-text p,
+.copy-text button {
   font-size: 24px;
   font-weight: 500;
   color: #ffffff;
   margin-bottom: 120px;
-
 }
-.copy-text button{
-background: none;
-border: none;
+.copy-text button {
+  background: none;
+  border: none;
 }
-.copy-text{
+.copy-text {
   width: 1320px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
 }
-
-
-
- 
