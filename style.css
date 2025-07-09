@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+.main {
+  width: 1330px;
+  margin: 0 auto;
+  background-image: repeating-linear-gradient(
+    90deg,
+    #ffd6d6 0px,
+    #ffd6d6 50px,
+    #ffffff 50px,
+    #ffffff 60px
+  );
+  /* height:100vw ; */
+}
+
+/* Banner section style starts here  */
+.banner-image {
+  /* padding-top: 30px; */
+  font-family: "Merriweather", serif;
+  position: relative;
+  border-radius: 20px;
+  /* background-image: radial-gradient(circle, black 0%, rgba(0, 0, 0, 0) 100%); */
+  /* background-image: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, black 100%); */
+  background-image: linear-gradient(to bottom, #070211 0%, #070211 100%);
+}
+.banner {
+  padding-top: 30px;
+}
+.banner-image img {
+  opacity: 0.3;
+  /* padding-top: 30px;
+margin-top: 30px; */
+}
+.banner-content h2 {
+  font-size: 32px;
+  color: #ffffff;
+  text-align: center;
+}
+.banner-content h1 {
+  font-size: 72px;
+  color: #ffffff;
+  text-align: center;
+}
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-image: linear-gradient(#070211 0%, #070211 100%); */
+  opacity: 0.7;
+  border-radius: 10px;
+}
+.banner {
+  margin-bottom: 120px;
+}
+
+/* discount section style starts here  */
+.discount-header {
+  font-size: 88px;
+  font-weight: bold;
+  color: #ff0000;
+  margin-bottom: 48px;
+  text-align: center;
+}
+.discount-description {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ff0000;
+  text-align: center;
+}
+.discount-description span {
+  font-size: 48px;
+  font-weight: bold;
+  color: #070211;
+  display: block;
+  margin-top: 16px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.discount-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+
+/* Party section starts here  */
+.party-image {
+  /* background-image: linear-gradient(); */
+  /* background-image: linear-gradient(#070211 100%, #070211 0%); */
+  /* background-image: linear-gradient(#070211 0%, #070211 100%); */
+  background-image: linear-gradient(to left, black 0%, rgba(0, 0, 0, 0) 100%);
+  border-radius: 16px;
+  position: relative;
+}
+.party-image img {
+  opacity: 0.5;
+}
+
+.party-text h1 {
+  font-size: 64px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.party-text p {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 48px;
+}
+.party-text a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+.party-text a:hover {
+  text-decoration: underline;
+}
+.party-text {
+  position: absolute;
+  top: 150px;
+  left: 400px;
+  transform: translate(-50%, 8%);
+}
+
+.party {
+  margin-bottom: 120px;
+}
+
+/* Location section style */
+
+.location h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #070211;
+  margin-bottom: 10px;
+  /* text-align: center; */
+}
+.location h2 span {
+  color: #ff0000;
+}
+.location button {
+  padding: 16px 32px;
+  border-radius: 8px;
+  border: none;
+  background-color: #ff0000;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 64px;
+}
+.location {
+  text-align: center;
+  height: 450px;
+  padding-top: 100px;
+  padding-bottom: 110px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(242, 205, 205) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  margin-bottom: 120px;
+}
+
+/* Offer section styles */
+.offer-details h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ff0000;
+  margin-bottom: 26px;
+}
+.offer-details h1 {
+  font-size: 48px;
+  margin-bottom: 32px;
+}
+.offer-details p {
+  font-size: 20px;
+  color: #6d6d6d;
+}
+.offer-image img {
+  margin: 5px;
+  border: 15px solid #ff0000;
+  border-radius: 50%;
+  padding: 48px;
+}
+.offer {
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.offer-greetings h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ff0000;
+  margin-bottom: 16px;
+}
+.offer-greetings p {
+  font-size: 20px;
+  color: #6d6d6d;
+  margin-bottom: 43px;
+}
+
+/* section holidays-discount styles */
+.holidays-discount {
+  text-align: center;
+}
+.holidays-discount h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #070211;
+  margin-bottom: 16px;
+}
+.holidays-discount h1 {
+  font-size: 72px;
+  /* font-weight: bold; */
+}
+.holidays-discount h1 span {
+  color: #ff0000;
+}
+.holidays-discount p {
+  font-size: 20px;
+  color: #6d6d6d;
+  margin-top: 28px;
+  margin-bottom: 64px;
+}
+.discount-50-image {
+  position: relative;
+}
+.discount-50 {
+  position: absolute;
+  top: 64px;
+  right: 0;
+  height: 220px;
+  width: 220px;
+}
+.rectangle-2 {
+  margin-top: 330px;
+}
+.discount-footer-image {
+  position: relative;
+}
+.discount-gift-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 670px;
+  height: 570px;
+}
+.holidays-discount-offer{
+    margin-bottom: 120px;
+}
