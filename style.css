@@ -26,12 +26,13 @@
   /* background-image: radial-gradient(circle, black 0%, rgba(0, 0, 0, 0) 100%); */
   /* background-image: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, black 100%); */
   background-image: linear-gradient(to bottom, #070211 0%, #070211 100%);
+  z-index: 1;
 }
 .banner {
   padding-top: 30px;
 }
 .banner-image img {
-  opacity: 0.3;
+  opacity: 0.7;
   /* padding-top: 30px;
 margin-top: 30px; */
 }
@@ -242,9 +243,11 @@ margin-top: 30px; */
 }
 .rectangle-2 {
   margin-top: 330px;
+   width: 1330px;
 }
 .discount-footer-image {
   position: relative;
+ 
 }
 .discount-gift-box {
   position: absolute;
@@ -255,4 +258,26 @@ margin-top: 30px; */
 }
 .holidays-discount-offer{
     margin-bottom: 120px;
+}
+
+/* -------portfolio style--- */
+.portfolio-text h2{
+font-size: 24;
+font-weight: 500;
+color:#ff0000;
+margin-bottom: 16px;
+}
+.portfolio-text h1{
+  font-size: 48;
+  color:#070211
+}
+.portfolio-text p{
+   font-size: 20px;
+  color: #6d6d6d;
+  margin-top: 22px;
+  margin-bottom: 48px;
+}
+
+.portfolio-image{
+ margin-bottom: 120px;
 }
