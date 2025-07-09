@@ -267,11 +267,11 @@ font-weight: 500;
 color:#ff0000;
 margin-bottom: 16px;
 }
-.portfolio-text h1{
+.portfolio-text h1,.subscribe h1{
   font-size: 48;
   color:#070211
 }
-.portfolio-text p{
+.portfolio-text p,.subscribe p{
    font-size: 20px;
   color: #6d6d6d;
   margin-top: 22px;
@@ -280,4 +280,43 @@ margin-bottom: 16px;
 
 .portfolio-image{
  margin-bottom: 120px;
+}
+
+/* ------Subscribe section--------- */
+
+.input-field{
+  width: 430px;
+  padding: 12px 22px;
+  font-size: 20px;
+  border-radius: 120px;
+  /* border-top-left-radius: 120px;
+  border-bottom-left-radius: 120px; */
+  margin-bottom: 120px;
+  border: none;
+}
+.input-field-btn{
+  padding: 12px 22px;
+  border-top-right-radius: 120px;
+  border-bottom-right-radius: 120px;
+
+  font-size:20px ;
+  color: #ffffff;
+  background-color: #ff0000;
+  position: absolute;
+  left: 800px;
+  border: none;
+}
+.input-box{
+  position: relative;
+}
+.subscribe img{
+  margin-bottom: 40px;
+}
+.subscribe{
+  background-image: linear-gradient(
+    to bottom,
+    rgb(242, 205, 205) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  text-align: center;
 }
